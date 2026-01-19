@@ -10,7 +10,7 @@ dotenv.config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: 'https://lame-restaurant.vercel.app/',
+    origin: 'https://lame-restaurant.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     credentials: true,
   })

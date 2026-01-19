@@ -18,7 +18,7 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://lame-restaurant-pkrb.vercel.app/",
+        "https://lame-restaurant-pkrb.vercel.app",
         { firstName, lastName, email, phone, date, time },
         {
           headers: {
